@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1 class="title">Matrix Calculator</h1>
+        <div class="matrix-input">
+            <h2>Enter First Number</h2>
+            <div class="matrix" id="matrix1">
+                <input type="number" id="m1_1" class="matrix-cell" value="0">
+                <input type="number" id="m1_2" class="matrix-cell" value="0">
+                <input type="number" id="m1_3" class="matrix-cell" value="0">
+                <input type="number" id="m1_4" class="matrix-cell" value="0">
+            </div>
+            <h2>Enter Second Numbers</h2>
+            <div class="matrix" id="matrix2">
+                <input type="number" id="m2_1" class="matrix-cell" value="0">
+                <input type="number" id="m2_2" class="matrix-cell" value="0">
+                <input type="number" id="m2_3" class="matrix-cell" value="0">
+                <input type="number" id="m2_4" class="matrix-cell" value="0">
+            </div>
+            <h2>Your Answer Is</h2>
+            <div class="matrix" id="result">
+                <input type="number" id="r_1" class="matrix-cell" value="0" readonly>
+                <input type="number" id="r_2" class="matrix-cell" value="0" readonly>
+                <input type="number" id="r_3" class="matrix-cell" value="0" readonly>
+                <input type="number" id="r_4" class="matrix-cell" value="0" readonly>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="operation-btn" onclick="add()">Add</button>
+            <button class="operation-btn" onclick="subtract()">Subtract</button>
+            <button class="operation-btn" onclick="multiply()">Multiply</button>
+            <button class="operation-btn" onclick="divide()">Divide</button>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

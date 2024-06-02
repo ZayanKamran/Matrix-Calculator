@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.calculator-container {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #4e4e50;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #f1c40f;
+    text-shadow: 2px 2px #000;
+}
+
+.matrix-input h2 {
+    margin: 10px 0;
+}
+
+.matrix {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.matrix-cell {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 2px solid #4e4e50;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: #f1c40f;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.matrix-cell:focus {
+    outline: none;
+    border-color: #f1c40f;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.operation-btn {
+    background: #2980b9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.operation-btn:hover {
+    background: #3498db;
+}
